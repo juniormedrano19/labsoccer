@@ -16,7 +16,11 @@ background: #FFFFFF;
     width: 55vw;
    /*  border: 1px solid black; */
     height: 100vh;
-    background: linear-gradient(206.31deg, #44A08D 0.01%, #093637 100%);
+    background: linear-gradient(212.8deg, #44A08D 0%, #093637 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   /*  background-color: #FFE169; */
+  /*  background: rgba(255, 225, 105, 0.7); */
+/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 
 
 }
@@ -32,19 +36,21 @@ background: #FFFFFF;
 .main__icon{
     width: 64px;
     height: 64px;
-    color: #34BC85;
+    /* color: #34BC85; */
+    color: #2B2E4A;
 }
 
 .main__font{
     font-family: Raleway;
 font-style: normal;
 font-weight: bold;
-font-size: 40px;
+font-size: 36px;
 line-height: 47px;
 /* identical to box height */
 
 
-color: #0F5156;
+/* color: #0F5156; */
+color: #2B2E4A;
 
 
 /* Inside auto layout */
@@ -81,7 +87,11 @@ font-weight: 800;
 font-size: 32px;
 line-height: 38px;
 
-color: #0F5156;
+/* color: #0F5156; */
+/* color: #2B2E4A; */
+
+color: #093637;
+
 margin-bottom: 15px;
 
 }
@@ -90,11 +100,14 @@ margin-bottom: 15px;
 /* Icono Guardar */
 
 .container-3{
+  align-items: center;
+  display: flex;
+
     margin:0px 9px 8.5px 0px;
     position: relative;
     vertical-align: middle;
     white-space: nowrap;
-    width: 17vw;
+    width: 28vw;
   }
   
   .container-3 input#search{
@@ -174,7 +187,7 @@ line-height: 23px;
     color: #BBBBBB;
     height: 24px;
     margin-left: 17px;
-    margin-top: 15px;
+    margin-top: -7px;
     position: absolute;
     top: 50%;
     width: 24px;
@@ -189,8 +202,13 @@ line-height: 23px;
 
 
 .main__box{
-    margin: 0 auto;
+/*   align-items: center; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
     margin-bottom: 90px;
+
+ /*  box-sizing: border-box; */
 }
 
 
@@ -207,3 +225,17 @@ line-height: 16px;
 
 color: #000000;
 }
+
+.main__img{
+  width: 53vw;
+  height: 90vh;
+  margin-left: -10px;
+}
+
+
+
+
+
+
+
+

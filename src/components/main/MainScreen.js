@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
 import { MainCard } from './MainCard';
-import pic from '../../styles/img/pic.png'
+import pic3 from '../../styles/img/pic3.svg'
 
 
 export const MainScreen = () => {
@@ -21,7 +21,7 @@ export const MainScreen = () => {
             </div>
             <div className="main__GreenPart">
                 <div>
-                    <img src={pic} />
+                    <img src={pic3} className="main__img"/>
                 </div>
                 
             </div>
